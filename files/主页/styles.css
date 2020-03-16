@@ -1,7 +1,12 @@
 ﻿body {
   margin:0px;
   background-color:rgba(51, 51, 51, 1);
-  background-image:none;
+  background-image:url('../../images/主页/bg.jpg');
+  background-position:left top;
+  background-repeat:repeat;
+  background-attachment:scroll;
+  background-size:1920px 1017px;
+  background-origin:border-box;
   position:relative;
   left:0px;
   width:1341px;
@@ -20,10 +25,10 @@
 #u0_img {
   border-width:0px;
   position:absolute;
-  left:0px;
+  left:-5px;
   top:0px;
-  width:1341px;
-  height:710px;
+  width:1351px;
+  height:720px;
 }
 #u0 {
   border-width:0px;
@@ -70,6 +75,10 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u1_img.mouseOver {
+}
+#u1.mouseOver {
 }
 #u1_text {
   border-width:0px;
@@ -180,6 +189,10 @@
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
+}
+#u4_img.mouseOver {
+}
+#u4.mouseOver {
 }
 #u4_text {
   border-width:0px;

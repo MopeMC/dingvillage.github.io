@@ -1,7 +1,12 @@
 ﻿body {
   margin:0px;
   background-color:rgba(51, 51, 51, 1);
-  background-image:none;
+  background-image:url('../../images/白名单查询/bg.jpg');
+  background-position:left top;
+  background-repeat:repeat;
+  background-attachment:scroll;
+  background-size:1920px 1017px;
+  background-origin:border-box;
   position:relative;
   left:0px;
   width:1300px;
@@ -17,15 +22,15 @@
   position:absolute;
   z-index:0;
 }
-#u25_img {
+#u27_img {
   border-width:0px;
   position:absolute;
-  left:0px;
+  left:-5px;
   top:0px;
-  width:1300px;
-  height:644px;
+  width:1310px;
+  height:654px;
 }
-#u25 {
+#u27 {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -34,20 +39,20 @@
   height:644px;
   display:flex;
 }
-#u25 .text {
+#u27 .text {
   position:absolute;
   align-self:center;
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
 }
-#u25_text {
+#u27_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
 }
-#u26 {
+#u28 {
   border-width:0px;
   position:absolute;
   left:245px;
@@ -55,7 +60,7 @@
   width:792px;
   height:440px;
 }
-#u26_input {
+#u28_input {
   border-width:2px;
   position:absolute;
   left:0px;
@@ -64,7 +69,7 @@
   height:440px;
   overflow:auto;
 }
-#u27_div {
+#u29_div {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -84,7 +89,7 @@
   font-size:57px;
   color:#FFFFFF;
 }
-#u27 {
+#u29 {
   border-width:0px;
   position:absolute;
   left:500px;
@@ -98,19 +103,19 @@
   font-size:57px;
   color:#FFFFFF;
 }
-#u27 .text {
+#u29 .text {
   position:absolute;
   align-self:flex-start;
   padding:0px 0px 0px 0px;
   box-sizing:border-box;
   width:100%;
 }
-#u27_text {
+#u29_text {
   border-width:0px;
   white-space:nowrap;
   text-transform:none;
 }
-#u28_div {
+#u30_div {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -130,7 +135,7 @@
   font-size:20px;
   color:#FFFFFF;
 }
-#u28 {
+#u30 {
   border-width:0px;
   position:absolute;
   left:1111px;
@@ -144,14 +149,14 @@
   font-size:20px;
   color:#FFFFFF;
 }
-#u28 .text {
+#u30 .text {
   position:absolute;
   align-self:center;
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
 }
-#u28_text {
+#u30_text {
   border-width:0px;
   white-space:nowrap;
   text-transform:none;

@@ -1,6 +1,11 @@
 ﻿body {
   margin:0px;
-  background-image:none;
+  background-image:url('../../images/地标/bg.jpg');
+  background-position:left top;
+  background-repeat:repeat;
+  background-attachment:scroll;
+  background-size:1920px 1017px;
+  background-origin:border-box;
   position:relative;
   left:0px;
   width:1479px;
@@ -19,10 +24,10 @@
 #u6_img {
   border-width:0px;
   position:absolute;
-  left:0px;
+  left:-5px;
   top:0px;
-  width:1479px;
-  height:783px;
+  width:1489px;
+  height:793px;
 }
 #u6 {
   border-width:0px;
@@ -603,6 +608,26 @@
   top:612px;
   width:49px;
   height:28px;
+  overflow:hidden;
+  background-image:url('../../resources/images/transparent.gif');
+}
+#u25 {
+  border-width:0px;
+  position:absolute;
+  left:117px;
+  top:593px;
+  width:149px;
+  height:16px;
+  overflow:hidden;
+  background-image:url('../../resources/images/transparent.gif');
+}
+#u26 {
+  border-width:0px;
+  position:absolute;
+  left:48px;
+  top:449px;
+  width:136px;
+  height:115px;
   overflow:hidden;
   background-image:url('../../resources/images/transparent.gif');
 }
